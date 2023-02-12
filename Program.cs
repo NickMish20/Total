@@ -3,7 +3,7 @@
     Console.Write("{0}: [{1}]\n", mes, String.Join(", ", arr));
   } 
     
-  int NumInt (string mes= "Ведите целое число: ", string error = "Вы ввели не корректное значение!")   
+  int NumInt (string mes= "Ведите целое число: ", string error = "Вы ввели некорректное значение!")   
   {
     Console.Write(mes);
     int num;
